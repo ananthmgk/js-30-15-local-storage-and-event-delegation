@@ -45,6 +45,7 @@ window.addEventListener('load', () => {
 
   function removeItems() {
     localStorage.removeItem('items');
+    itemsList.innerHTML = '';
   }
 
   addItems.addEventListener('submit', addItem);
